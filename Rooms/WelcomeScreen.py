@@ -13,3 +13,6 @@ class WelcomeScreen(Level):
 
         # add title object
         self.add_room_object(Title(self, 240, 200))
+
+        # register for key events
+        self.handle_key_events = True 
